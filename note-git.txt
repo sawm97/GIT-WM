@@ -1,0 +1,20 @@
+git --version
+    Untuk melihat versi git
+
+git config --global user.name <yourUserName>
+    Untuk set username di git
+
+git config --global user.email <yourEmail>
+    Untuk set email di git
+
+git init
+    Inisialisasi terhadap folder projek, agar di track oleh git.
+
+git add <fileName>
+    Memindahkan file dari untracked / modified area ke staging area
+
+git rm --cached <fileName>
+    Memindahkan file dari staging area ke untracked / modified area
+
+git status
+    Untuk melihat status file saat ini
